@@ -12,7 +12,7 @@ const resume = {
       },
       {
         href: 'https://github.com/jonathanlinford',
-        icon: 'fa fa-github',
+        icon: 'fab fa-github',
         text: 'github.com/jonathanlinford',
       },
       {
@@ -42,7 +42,9 @@ const resume = {
     'Graduating December 2019 with a Bachelor\'s in Computer Science',
     '2.5 years of Software experience',
     'Currently Software Engineer at Lockheed Martin in Vineyard, UT',
-    'Skills: {comma separated list of skills}'
+    'Skills: Object-Oriented Design, Software Design Patterns, Linux/Unix, macOS, Windows, Android/iOS, some React and Angular',
+    'Languages: Python (including numpy, pytorch, pandas), Java/Kotlin, \
+    C/C++, Swift. Introductory Experience with Elixir, go, haskell, prolog, and matlab.',
   ],
   sections: [
     {
@@ -77,32 +79,42 @@ const resume = {
           title: <a href="https://www.lockheedmartin.com/" target="_blank" rel="noopener noreferrer">{'Lockheed Martin'}</a>,
           subtitle: 'Software Engineer Intern - May 2019 to Current',
           details: [
-            '2-3 verb-driven bullet points that highlight achievements in the form of quantifiable results',
-            'Major technologies utilized during the project',
+            'Team designed & implemented an automated testing framework to save costs and man hours over the lifetime of the contract',
+            'Learned technologies such as GRPC using protocol buffers and docker within docker swarm on a python codebase and C++',
+            'Lead intern project team as scrum master in proposing and implementing a sonar threat detection system: We used a teensy \
+            microcontroller to gather audio signal, denoise, apply FFT and output tables and audio to convey hostile or friendly source',
+            'Offered full-time position (declined due to inability to relocate), continued internship in UT working on UAVs',
           ]
         },
         {
           title: <a href="https://www.chatbooks.com/" target="_blank" rel="noopener noreferrer">{'Chatbooks'}</a>,
           subtitle: 'Android Engineer - November 2017 to May 2019',
           details: [
-            '2-3 verb-driven bullet points that highlight achievements in the form of quantifiable results',
-            'Major technologies utilized during the project',
+            'Managed the Java / Kotlin code base for the Chatbooks Android app with over 620, 000 downloads and a 4.5 - star rating',
+            'Implemented AWS S3 photo uploading SDK to resolve long - standing photo corruption error',
+            'Involved in the development and release of new UI features using material design to build custom views and layouts',
+            'Performed automated and manual testing of the Android and IOS apps responsible for 90% of the company’s revenue',
+            'Contributed to the overall testing and design of Node.js UI frontend and AWS C# backend',
           ]
         },
         {
           title: <a href="https://www.digicert.com/" target="_blank" rel="noopener noreferrer">{'DigiCert Inc.'}</a>,
-          subtitle: 'Quality Assurance Intern - August 2016 to November 2017',
+          subtitle: 'Quality Assurance and Marketing Intern - August 2016 to November 2017',
           details: [
-            '2-3 verb-driven bullet points that highlight achievements in the form of quantifiable results',
-            'Major technologies utilized during the project',
+            'Contributed to the development, testing, and rollout of customer facing SSL certificate management software',
+            'Worked with developers to create and update Zephyr manual software test suites and Selenium automated testing',
+            'Managed the strategic planning of the reseller partner accounts totaling in $10 + million in annual revenue',
+            'Reviewed applications from 360 + technology companies worldwide and consulted on best reseller practices',
           ]
         },
         {
           title: <a href="https://www.accessdevelopment.com/" target="_blank" rel="noopener noreferrer">{'Access Development Corp.'}</a>,
-          subtitle: 'Quality Assurance Intern - July 20201517 to August 2016',
+          subtitle: 'Business Account Specialist - July 2015 to August 2016',
           details: [
-            '2-3 verb-driven bullet points that highlight achievements in the form of quantifiable results',
-            'Major technologies utilized during the project',
+            'Developed new system for contract renewal and set all-time record of 311 renewals in 1 month – previous record being 60',
+            'Managed membership discount contracts and accounts for over 9, 000 businesses throughout the United States and Canada',
+            'Led the merchant relations team in renewal contracts, commissions and hours worked for final 5 months of employment',
+            'Involved in revisions of workflow and marketing materials that led to 300 % increase in contract renewals',
           ]
         },
       ]
@@ -111,10 +123,14 @@ const resume = {
       title: 'Service',
       subsections: [
         {
-          title: <a href="{organization homepage}" target="_blank" rel="noopener noreferrer">{'organization name'}</a>,
-          subtitle: '{position} - {start date} to {end date}',
+          title: <a href="https://www.churchofjesuschrist.org/" target="_blank"
+           rel="noopener noreferrer">{'The Church of Jesus Christ of Latter-Day Saints'}</a>,
+          subtitle: 'Full-Time Proselyting Missionary - March 2013 to April 2015',
           details: [
-            '2-3 verb-driven bullet points that highlight achievements in the form of quantifiable results',
+            'Managed 100 service volunteers in overseeing logistics, transferring volunteers, and effective teaching & planning',
+            'Led 120+ one-on-one 24-hour trainings focusing on personal development, foreign language study and teaching skills',
+            'Created and launched 6 organization-wide monthly training programs',
+            'Learned to speak, read, and write fluently in Spanish',
           ]
         },
       ]
